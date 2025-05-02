@@ -8,10 +8,15 @@ A comprehensive collection of SQL queries for hospital database management, cove
 
 ## 📂 Repository Structure
 /hospital-db-queries/
+
 │── /basic-queries/
+
 │── /advanced-queries/
+
 │── /data-modification/
+
 │── LICENSE
+
 └── README.md
 
 
@@ -26,9 +31,13 @@ A comprehensive collection of SQL queries for hospital database management, cove
 🔹 Basic Retrieval
 sql
 SELECT first_name FROM patients WHERE height > 160;
+
+
 🔹 Data Modification
 sql
 UPDATE patients SET allergies = 'NKA' WHERE allergies IS NULL;
+
+
 🔹 Advanced Analytics
 sql
 SELECT province_name, COUNT(*) 
